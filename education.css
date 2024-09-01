@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar top*/
+.container{
+    width: 100%;
+}
+.navbar-top{
+    display: flex;
+    justify-content: space-between;  /*to give a space between logo and contact us */
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 180px;
+    height: 8;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.nav-item a{
+    background-color: rgba(183, 35, 60, 0.911);
+    color: white;
+    border-radius: 60px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 5px 25px;          /*for text inside the box */
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;  /* to remove the underline of contact us*/
+    margin-right: 100px;
+}
+/*navbar top end*/
+
+.container-fluid{
+    height: 65px;
+}
+.navbar-nav {
+    margin-left: 210px;
+
+}
+
+.navbar-nav .nav-link{
+    text-decoration: none;
+    color: white;       /*to give color of text*/
+    margin-right: 20px;
+    font-weight: 450;
+    font-size: 1.1rem;
+    display: block;
+    padding: 10px;
+    width: 120px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: white;          /*hover is used to change the color of text when we move the cursor on text*/
+    
+}
+.custom-navbar .navbar-nav .nav-link {
+    color: white; /* Change this to your desired color */
+}
+#carouselExample{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -8px;
+}
+
+
+/*image and content*/
+#image{
+    margin-top: 100px;
+}
+
+.outer{
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 300px;
+    background-color: rgba(183, 35, 60, 0.911);
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+
+.box{
+    width: 600px;
+    height: 400px;
+    box-shadow: 1px 0 10px #0000;
+    
+}
+.box img{
+    width: 500px;
+    height: 400px;
+}
+
+.box button i{
+    color: rgba(183, 35, 60, 0.911);
+}
+
+.nav-item1 a{
+    background-color: rgba(183, 35, 60, 0.911);
+    color: white;
+    border-radius: 60px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 5px 25px;          /*for text inside the box */
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;  /* to remove the underline of contact us*/
+    margin-left: -205px;
+}
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
