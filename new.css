@@ -1,0 +1,370 @@
+
+
+body{
+    font-family: "Karla", sans-serif;
+
+}
+/*********************
+navbar
+******************/
+nav{
+    background: #fff!important;
+    box-shadow: 1px 1px 2px black;
+}
+nav .navbar-brand{
+    color: rgb(33, 26, 26);
+}
+.navbar-nav .nav-link{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none!important;
+    padding: none!important;
+}
+
+
+/*********************
+carousel
+******************/
+
+.carousel-inner .carousel-item{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+.carousel-inner .carousel-item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.carousel-inner .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+}
+
+.carousel-inner .carousel-caption h1{
+    color: gray;
+    margin-bottom: 7px;
+    font-size: 40px;
+    width: 80%;
+    margin: 0px auto 30px auto;
+    flex-wrap: wrap;
+
+}
+
+
+/*********************
+section1
+******************/
+
+section{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    align-items: center;
+}
+
+.card-effect{
+
+    box-shadow: var(--box-shadow);
+    background-color: grey;
+    color: white;
+    padding: 25px;
+    transition: all 0.5s ease;
+    margin: 0;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: auto;
+
+}
+.card-effect:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.card-effect p{
+    padding-top: 15px;
+}
+
+.iconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 90px;
+    margin: 0 auto;
+
+    
+    
+
+}
+.iconbox img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+   
+    
+}
+
+
+/*********************
+section2
+******************/
+
+.card-body{
+    height: 180px;
+    text-align: center;
+
+}
+
+ /***to change the color of box when we touch on the box*****/
+.my-card{
+    transition: background-color 0.3s ease;
+}
+.my-card:hover{
+    background-color:black;
+    color: white;
+
+}
+/******************/
+
+
+
+/******************
+section3
+********************/
+.row{
+    
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+/******************
+section3 end
+********************/
+
+
+/******************
+section4
+********************/
+
+.about{
+    background: url('https://rare-gallery.com/uploads/posts/585650-adult-business.jpg');
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+}
+.head{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.para{
+    padding-top: 50px;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+
+
+/* review */
+
+
+.reviews h1{
+    font-size: 42px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+}
+.team .team_member{
+    background-color: gray;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 400px;
+    padding: 20px;
+    line-height: 20px;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+}
+.team .team_member .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team .team_member h3{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.team .team_member p.role{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.team_member:hover{
+    box-shadow: 0 0 15px  5px  black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* review end */
+
+
+/* contact start */
+
+.contact-section{
+    text-align: center;
+    background-color: grey;
+}
+.contact-bg{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.contact-bg h3{
+
+    font-weight: bold;
+}
+
+.contact-body{
+    
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+}
+
+.contact-form{
+    padding: 2rem 0;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact-form form{
+    padding-bottom: 1rem;
+}
+
+.form-control{
+    width: 100%;
+    border: 1.5px solid#c7c7c7;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    outline: 0;
+
+}
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48,48,48,1);
+}
+.contact-form form div{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+.send-btn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0.7rem;
+    cursor: pointer;
+    transition:  all 0.4s ease;
+}
+
+.send-btn:hover{
+    opacity: 0.8;
+}
+
+.contact-form > div img{
+    width: 445px;
+    height: 380px;
+    
+}
+/* contact end */
+
+
+
+/* footer */
+
+#footer{
+    width: 100%;
+    background-color: black;
+    
+}
+
+#footer h1{
+
+    color: white;
+    padding-top: 50px;
+}
+.icons i{
+    color: rgb(238,224,208);
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 15px 5px;
+}
+
+.icons i:hover{
+    transform: translateY(-10px);
+}
+.copyright{
+    color: white;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+    
+ 
